@@ -15,7 +15,7 @@
         android:background="#91e991"
         >
         <ListView
-            android:id="@+id/List_music"
+            android:id="@+id/list_music"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         </ListView>
@@ -40,27 +40,27 @@
             android:layout_height="wrap_content"
             android:text="Stop"
             />
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:layout_marginLeft="20dp"
-            >
-            <TextView
-                android:id="@+id/text_music"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Playing Music : "/>
-            <ProgressBar
-                android:id="@+id/progress_music"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:visibility="invisible"
-                />
-            </LinearLayout>
+
 
     </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        >
+        <TextView
+            android:id="@+id/text_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Playing Music : "/>
+        <ProgressBar
+            android:id="@+id/progress_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
 </LinearLayout>
